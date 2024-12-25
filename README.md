@@ -4,9 +4,9 @@ Game Connect is a user-friendly iOS app designed to enhance the gaming experienc
 
 Features
 
-- User Registration: Users can create accounts with first name, last name, and password.
+- User Registration: Users can create accounts with email, first name, last name, and password.
 - Login: Secure login functionality using stored user credentials.
-- Persistence: User data is stored locally using UserDefaults. (in real project I can use Keychain)
+- Persistence: User data is stored locally using UserDefaults.
 - Responsive Design: UI adapts seamlessly to different screen sizes.
 
 ![App screenshot Sign in page](https://github.com/user-attachments/assets/f7ce213e-134a-4c99-843c-e26e60896a04)
@@ -16,7 +16,6 @@ Features
 Future Improvements
 
 - Implement secure storage with Keychain.
-- Refactor to adhere to the MVVM architecture.
 - Add validation for email format and password strength.
 - Implement additional authentication options like Face ID or Touch ID.
 - Add a logout feature to clear stored session data..
